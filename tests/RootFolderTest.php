@@ -162,5 +162,4 @@ class RootFolderTest extends SapphireTest
             'The duplicated page must not have the same root folder'
         );
     }
-
 }

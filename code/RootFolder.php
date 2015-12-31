@@ -33,7 +33,7 @@ class RootFolder extends DataExtension
      */
     public function onBeforeWrite()
     {
-            $this->checkFolder();
+        $this->checkFolder();
     }
 
     /**
@@ -41,7 +41,7 @@ class RootFolder extends DataExtension
      */
     public function onAfterWrite()
     {
-            $this->checkFolder();
+        $this->checkFolder();
     }
 
     /**
@@ -205,4 +205,3 @@ class RootFolder extends DataExtension
         return $this->owner->URLSegment;
     }
 }
-
